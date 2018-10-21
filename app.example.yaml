@@ -27,6 +27,22 @@ handlers:
     static_files:  "public/favicon.ico"
     upload: 'public/favicon.ico'
     secure: always
+  - url: '/manifest.json'
+    static_files:  "public/manifest.json"
+    upload: 'public/manifest.json'
+    secure: always
+  - url: '/browserconfig.xml'
+    static_files:  "public/browserconfig.xml"
+    upload: 'public/browserconfig.xml'
+    secure: always
+  - url: '/google3709c0f9d1dcbcf3.html'
+    static_files:  "public/google3709c0f9d1dcbcf3.html"
+    upload: 'public/google3709c0f9d1dcbcf3.html'
+    secure: always
+  - url: '/iBhJi1b9pE-io4G9S6zG0DH8TKU.html'
+    static_files:  "public/iBhJi1b9pE-io4G9S6zG0DH8TKU.html"
+    upload: 'public/iBhJi1b9pE-io4G9S6zG0DH8TKU.html'
+    secure: always
   - url: '.*'
     script: auto
     secure: always
