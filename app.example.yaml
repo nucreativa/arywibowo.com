@@ -7,23 +7,30 @@ handlers:
     static_files: "public/css/\\1"
     require_matching_file: false
     upload: 'public/css/.*'
+    secure: always
   - url: '/js/(.*)'
     static_files: "public/js/\\1"
     require_matching_file: false
     upload: 'public/js/.*'
+    secure: always
   - url: '/img/(.*)'
     static_files: "public/img/\\1"
     require_matching_file: false
     upload: 'public/img/.*'
+    secure: always
   - url: '/svg/(.*)'
     static_files: "public/svg/\\1"
     require_matching_file: false
     upload: 'public/svg/.*'
+    secure: always
   - url: '/favicon.ivo'
     static_files:  "public/favicon.ico"
     upload: 'public/favicon.ico'
+    secure: always
   - url: '.*'
     script: auto
+    secure: always
+    redirect_http_response_code: 301
 
 env_variables:
   # Put production environment variables here.
