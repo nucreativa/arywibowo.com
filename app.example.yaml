@@ -1,6 +1,6 @@
 runtime: php72
 
-default_expiration: "1m"
+default_expiration: "30d"
 
 handlers:
   - url: '/css/(.*)'
