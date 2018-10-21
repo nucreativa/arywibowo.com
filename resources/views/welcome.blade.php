@@ -22,6 +22,9 @@
         <meta name="twitter:creator" content="@nucreativa">
         <meta name="google-site-verification" content="CfYNyQK1yrpkPoE-8yyZcN391JyYXiVUZ_gPlgHEJYM" />
 
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
         <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
