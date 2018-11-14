@@ -1,0 +1,17 @@
+parameters:
+  git_dir: .
+  bin_dir: vendor/bin
+  tasks:
+    phpcs:
+      standard: PSR2
+      severity: ~
+      error_severity: ~
+      warning_severity: ~
+      tab_width: ~
+      report: full
+      report_width: ~
+      whitelist_patterns: []
+      encoding: ~
+      ignore_patterns: [./tests/*, ./resources/*, ./database/*, ./bootstrap/*]
+      sniffs: []
+      triggered_by: [php]
