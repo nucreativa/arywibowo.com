@@ -2,6 +2,17 @@ parameters:
   git_dir: .
   bin_dir: vendor/bin
   tasks:
+    shell:
+      scripts:
+      - ["-c", "vendor/bin/php-cs-fixer fix app/ --rules=@PSR2"]
+      metadata:
+        blocking: true
+        priority: 9
+    phpunit:
+      config_file: ~
+      testsuite: ~
+      group: []
+      always_execute: false
     phpcs:
       standard: PSR2
       severity: ~
