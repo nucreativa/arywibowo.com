@@ -11,7 +11,8 @@
         "laravel/tinker": "^1.0",
         "mll-lab/laravel-graphql-playground": "^0.3.3",
         "nuwave/lighthouse": "^2.6",
-        "renatomarinho/laravel-page-speed": "^1.8"
+        "renatomarinho/laravel-page-speed": "^1.8",
+        "thepixeldeveloper/sitemap": "^5.1"
     },
     "require-dev": {
         "filp/whoops": "^2.0",

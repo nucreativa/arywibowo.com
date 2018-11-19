@@ -1,2 +1,14 @@
+User-agent: googlebot
+User-agent: google
+User-agent: bingbot
+User-agent: bing
+User-agent: YandexBot
+User-agent: facebookexternalhit/1.1
+User-agent: Facebot
+Crawl-delay: 10
+Disallow: /api/
+
 User-agent: *
-Disallow:
+Disallow: /api/
+
+Sitemap: https://arywibowo.com/sitemap.xml

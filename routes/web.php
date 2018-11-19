@@ -11,6 +11,7 @@
 |
 */
 
+Route::get('/sitemap.xml', 'SitemapController@index')->name('sitemap.index');
 Route::get('/', function () {
     return view('welcome');
 });
