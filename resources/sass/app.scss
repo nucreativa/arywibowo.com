@@ -25,4 +25,29 @@
   height: 82px;
 }
 
+h2 {
+  border-left: solid 4px #818182;
+  padding-left: 5px;
+  color: #818182;
+}
+
+h3 {
+
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+.eduexp {
+  > li {
+    border-bottom: dashed 1px #818182;
+  }
+  li {
+    margin: 15px 0 15px 0;
+  }
+  li:last-of-type {
+    border-bottom: none;
+  }
+}
 

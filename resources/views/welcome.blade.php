@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="Ary Wibowo adalah seorang technopreneur dari Indonesia."/>
-    <meta name="keywords" content="ary wibowo, full stack engineer, founder of curh.at"/>
+    <meta name="keywords" content="ary wibowo, full stack engineer, founder of curh.at, technology manager antv"/>
     <meta name="robots" content="all">
     <meta name="geo.placename" content="Indonesia">
     <meta name="geo.position" content="-6.143056253534466,106.80870920419693">
@@ -57,7 +57,22 @@
     "name": "Ary Wibowo",
     "gender": "Male",
     "nationality": "Indonesia",
-    "sameAs" : [
+    "alumniOf": {
+        "@type": "OrganizationRole",
+        "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universitas Gunadarma",
+        "sameAs": "http://www.gunadarma.ac.id/"
+        }
+    },
+    "worksFor": [
+        "ANTV"
+    ],
+    "affiliation": [
+        "Bizzy Indonesia",
+        "Icar Asia Limited"
+    ],
+    "sameAs": [
         "https://github.com/nucreativa",
         "https://stackoverflow.com/users/2097989/ary-wibowo?tab=profile",
         "https://www.linkedin.com/in/nucreativa/",
